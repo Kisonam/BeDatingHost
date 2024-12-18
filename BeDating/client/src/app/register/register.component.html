@@ -1,0 +1,71 @@
+<form [formGroup]="registerForm" (ngSubmit)="register()" autocomplete="off">
+    <h2 class="text-center text-primary">Sign up</h2>
+    <hr>
+
+    <div class="mb-3">
+        <label class="form-label">I am a:</label>
+        <div class="form-check form-check-inline ml-3">
+            <input class="form-check-input" type="radio" 
+            formControlName="gender" value="male">
+            <label class="form-check-label">Male</label>
+        </div>
+        <div class="form-check form-check-inline ml-3">
+            <input class="form-check-input" type="radio" 
+            formControlName="gender" value="female">
+            <label class="form-check-label">Female</label>
+        </div>
+    </div>
+
+    <app-text-input
+        [formControl]="$any(registerForm.controls['username'])"
+        [label]="'Username'">
+    </app-text-input>
+
+    <app-text-input
+        [formControl]="$any(registerForm.controls['knownAs'])"
+        [label]="'Known As'">
+    </app-text-input>
+
+    <app-date-picker
+        [formControl]="$any(registerForm.controls['dateOfBirth'])"
+        [label]="'Date of Birth'"
+        [maxDate]="maxDate"
+        >
+    </app-date-picker>
+    <app-text-input
+        [formControl]="$any(registerForm.controls['city'])"
+        [label]="'City'">
+    </app-text-input>
+    <app-text-input
+        [formControl]="$any(registerForm.controls['country'])"
+        [label]="'Country'">
+    </app-text-input>
+
+    <app-text-input [formControl]="$any(registerForm.controls['password'])"
+    [label]="'Password'"
+    [type]="'password'">
+    </app-text-input>
+
+    <app-text-input [formControl]="$any(registerForm.controls['confirmPassword'])"
+    [label]="'Confirm Password'"
+    [type]="'password'">
+    </app-text-input>
+
+    @if (validationErrors) {
+        <div class="alert alert-danger text-start mt-3">
+            <ul>
+                @for (error of validationErrors; track error) {
+                    <li>{{error}}</li>
+                }
+            </ul>
+        </div>
+    }
+
+    <div class="form-group text-center">
+        <button [disabled]="!registerForm.valid" class="btn btn-success mr-2" type="submit">Register</button>
+        <button class="btn btn-danger mr-2" (click)="cancel()" type="button">Cancel</button>
+    </div>
+</form>
+
+<!-- <p>Form Value: {{ registerForm.value | json }}</p>
+<p>Form Status: {{ registerForm.status | json }}</p> -->

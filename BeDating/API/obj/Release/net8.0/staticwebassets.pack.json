@@ -1,0 +1,69 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/artemradovskyi/Skripts/CSharp/UdemyStudy/BeDating/API/wwwroot/3rdpartylicenses.txt",
+      "PackagePath": "staticwebassets/3rdpartylicenses.txt"
+    },
+    {
+      "Id": "/Users/artemradovskyi/Skripts/CSharp/UdemyStudy/BeDating/API/wwwroot/assets/user.png",
+      "PackagePath": "staticwebassets/assets/user.png"
+    },
+    {
+      "Id": "/Users/artemradovskyi/Skripts/CSharp/UdemyStudy/BeDating/API/wwwroot/favicon.ico",
+      "PackagePath": "staticwebassets/favicon.ico"
+    },
+    {
+      "Id": "/Users/artemradovskyi/Skripts/CSharp/UdemyStudy/BeDating/API/wwwroot/index.html",
+      "PackagePath": "staticwebassets/index.html"
+    },
+    {
+      "Id": "/Users/artemradovskyi/Skripts/CSharp/UdemyStudy/BeDating/API/wwwroot/main-234FOCJS.js",
+      "PackagePath": "staticwebassets/main-234FOCJS.js"
+    },
+    {
+      "Id": "/Users/artemradovskyi/Skripts/CSharp/UdemyStudy/BeDating/API/wwwroot/media/fontawesome-webfont-3KIJVIEY.svg",
+      "PackagePath": "staticwebassets/media/fontawesome-webfont-3KIJVIEY.svg"
+    },
+    {
+      "Id": "/Users/artemradovskyi/Skripts/CSharp/UdemyStudy/BeDating/API/wwwroot/media/fontawesome-webfont-5GKVPAEF.woff2",
+      "PackagePath": "staticwebassets/media/fontawesome-webfont-5GKVPAEF.woff2"
+    },
+    {
+      "Id": "/Users/artemradovskyi/Skripts/CSharp/UdemyStudy/BeDating/API/wwwroot/media/fontawesome-webfont-FMJ3VJ65.eot",
+      "PackagePath": "staticwebassets/media/fontawesome-webfont-FMJ3VJ65.eot"
+    },
+    {
+      "Id": "/Users/artemradovskyi/Skripts/CSharp/UdemyStudy/BeDating/API/wwwroot/media/fontawesome-webfont-RJ6LE7IU.ttf",
+      "PackagePath": "staticwebassets/media/fontawesome-webfont-RJ6LE7IU.ttf"
+    },
+    {
+      "Id": "/Users/artemradovskyi/Skripts/CSharp/UdemyStudy/BeDating/API/wwwroot/media/fontawesome-webfont-Z4ARLA73.woff",
+      "PackagePath": "staticwebassets/media/fontawesome-webfont-Z4ARLA73.woff"
+    },
+    {
+      "Id": "/Users/artemradovskyi/Skripts/CSharp/UdemyStudy/BeDating/API/wwwroot/polyfills-FFHMD2TL.js",
+      "PackagePath": "staticwebassets/polyfills-FFHMD2TL.js"
+    },
+    {
+      "Id": "/Users/artemradovskyi/Skripts/CSharp/UdemyStudy/BeDating/API/wwwroot/styles-KMUBV363.css",
+      "PackagePath": "staticwebassets/styles-KMUBV363.css"
+    },
+    {
+      "Id": "obj/Release/net8.0/staticwebassets/msbuild.API.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Release/net8.0/staticwebassets/msbuild.build.API.props",
+      "PackagePath": "build\\API.props"
+    },
+    {
+      "Id": "obj/Release/net8.0/staticwebassets/msbuild.buildMultiTargeting.API.props",
+      "PackagePath": "buildMultiTargeting\\API.props"
+    },
+    {
+      "Id": "obj/Release/net8.0/staticwebassets/msbuild.buildTransitive.API.props",
+      "PackagePath": "buildTransitive\\API.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
